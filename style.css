@@ -14,6 +14,7 @@ html{
 }
 
 .top-banner {
+    position: relative;
     width: 100%;
     background-color: #243746;
     padding-top: 5px; /* Adjusted padding-top value */
@@ -62,7 +63,6 @@ button:hover{
 #animeInfo{
     position: flex;
     width: 40%;
-    height: 1060px;
     margin: auto;
     padding: 30px;
     border-radius: 20px;
@@ -82,7 +82,7 @@ button:hover{
 }
 
 #animeInfo img{
-    max-width: 100%;
+    width: 30%;
 
     height: auto;
     display: block;
@@ -92,10 +92,11 @@ button:hover{
 }
 
 footer{
+    
     position: absolute;
     width: 100%;
     bottom:0;
-
+    margin-top: 100px;
     background-color:#243746;
     color: #f8f7f3;
     text-align:center;
